@@ -1,0 +1,2 @@
+Requirement already satisfied: scipy in /home/montanarini/miniconda3/envs/ctl4b/lib/python3.9/site-packages (1.8.1)
+Requirement already satisfied: numpy<1.25.0,>=1.17.3 in /home/montanarini/miniconda3/envs/ctl4b/lib/python3.9/site-packages (from scipy) (1.21.5)

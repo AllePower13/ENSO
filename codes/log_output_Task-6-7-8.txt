@@ -1,0 +1,1062 @@
+No DISPLAY variable set. Switching to agg backend
+Task-6-7-8_RegCompTermo.py  has been launched on date: 2025-09-25 13:07:02.876908 
+
+Choose which branch to run: 
+1 := Obsolete. 
+2 := Currently most developed and omnicomrehensive branch.
+Inserisci un valore (Premi Esc per default): Time over. Default value of:  2  will be used.
+Hai selezionato il branch: 2
+Choose wheter to enable or not the detrending: 
+0 := Default, Disabled regridding. Warning! The Datasets must have the same space grid subdivision, better if it is 180x360 or lower 
+1 := Enabled regridding of the Datasets over the Historical Dataset wich has a space grid divided in 180x360 gridpoints
+Inserisci un valore (Premi Esc per default): 
+Time over. Default value of:  0  will be used.
+Hai selezionato il regrid: 0
+
+Recap of choose settings:
+Hai selezionato il branch: 2
+Hai selezionato il regrid: 0
+
+The following set of parameters was selected: 
+- Last n years of the bottino runs:  100 
+- Running Mean time, in months (for the historical detrending):  360 
+- Last n years for the evaluation of the thermocline: 50
+
+# Inizia l'elaborazione della variabile: tos
+
+## Inizia l'elaborazione di: Dataset_obs
+Corresponding path:  /home/fabiano/HadISST_sst_25.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_obs completed in 0:00:00.515892
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_obs completed in 0:00:08.136782
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_obs  took 0:00:08.652687
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:06.987203
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_hist completed in 0:00:12.716154
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_hist  took 0:00:19.703368
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/ocean/Omon/r1i1p1f1_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:21.330652
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_pi-control completed in 0:00:13.497557
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_pi-control  took 0:01:34.828220
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:02:38.942862
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b990 completed in 0:00:11.414363
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b990  took 0:02:50.357236
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:02:55.708355
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b025 completed in 0:00:12.947495
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b025  took 0:03:08.655860
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:46.062708
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b050 completed in 0:00:12.720845
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b050  took 0:02:58.783565
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:02:38.985506
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b065 completed in 0:00:12.212319
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b065  took 0:02:51.197838
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:42.002182
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b080 completed in 0:00:15.214565
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b080  took 0:02:57.216761
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:18.184849
+
+Start of time and space variable selection
+Processing phase: nino, variable: tos
+Processing phase: nina, variable: tos
+
+Regression of :  tos
+
+End of time and space variable selection and Regression evaluation
+Time and space  tos  selection and Regression for Dataset_b100 completed in 0:00:10.891778
+
+Start saving the evaluated variables tos
+End saving the evaluated variables
+
+Evaluation of  tos for Dataset_b100  took 0:02:29.076638
+
+Overall evaluation of  tos  for all the Datasets took 0:19:19.511455
+
+# Inizia l'elaborazione della variabile: thetao
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:06.291953
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/ocean/Omon/r1i1p1f1_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:04.341727
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:02:02.831895
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:02:15.585851
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:04.618241
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:01:59.879448
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:04.352122
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:01.991466
+
+Start of time and space variable selection
+
+Start saving the evaluated variables:  thetao
+End saving the evaluated variables
+
+Overall evaluation of  thetao  for all the Datasets took -1 day, 23:59:59.999178
+
+# Inizia l'elaborazione della variabile: tas
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:08.214083
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_hist completed in 0:00:11.321838
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_hist  took 0:00:19.535931
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/atmos/Amon/r1i1p1f1_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:08.664973
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_pi-control completed in 0:00:08.629111
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_pi-control  took 0:01:17.294095
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:02:16.343293
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b990 completed in 0:00:10.113500
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b990  took 0:02:26.456805
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:02:18.951637
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b025 completed in 0:00:10.464486
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b025  took 0:02:29.416135
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:15.619534
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b050 completed in 0:00:11.406116
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b050  took 0:02:27.025661
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:02:16.973568
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b065 completed in 0:00:11.027207
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b065  took 0:02:28.000787
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:28.363898
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b080 completed in 0:00:10.237820
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b080  took 0:02:38.601753
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Amon_r25/tas/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:14.917061
+
+Start of time and space variable selection
+Processing phase: nino, variable: tas
+Processing phase: nina, variable: tas
+
+Regression of :  tas
+
+End of time and space variable selection and Regression evaluation
+Time and space  tas  selection and Regression for Dataset_b100 completed in 0:00:10.476193
+
+Start saving the evaluated variables tas
+End saving the evaluated variables
+
+Evaluation of  tas for Dataset_b100  took 0:02:25.393265
+
+Overall evaluation of  tas  for all the Datasets took 0:16:33.597842
+
+# Inizia l'elaborazione della variabile: ua
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:06.371772
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_hist completed in 0:00:22.681825
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/atmos/Amon/r1i1p1f1_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:16.899171
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_pi-control completed in 0:00:36.170990
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:02:21.114648
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b990 completed in 0:00:19.278599
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:02:37.328787
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b025 completed in 0:00:20.579343
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:22.668198
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b050 completed in 0:00:18.210288
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:02:12.167121
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b065 completed in 0:00:19.493242
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:14.382234
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b080 completed in 0:00:18.599202
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Amon_r25/ua/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:11.795834
+
+Start of time and space variable selection
+
+Regression of:  ua850
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua850
+End saving the evaluated variables
+
+Regression of:  ua200
+Processing phase: nino, variable: ua
+Processing phase: nina, variable: ua
+
+Start saving the evaluated variables:  ua200
+End saving the evaluated variables
+
+End of time and space variable selection and Regression evaluation
+Time and space  ua  (ua850 + ua200) selection and Regression for Dataset_b100 completed in 0:00:19.244317
+
+Overall evaluation of  ua  for all the Datasets took 0:18:18.826901
+
+# Inizia l'elaborazione della variabile: pr
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:04.586482
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_hist completed in 0:00:09.370842
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_hist  took 0:00:13.957334
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/atmos/Amon/r1i1p1f1_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:05.681332
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_pi-control completed in 0:00:08.358628
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_pi-control  took 0:01:14.039971
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:01:54.610083
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b990 completed in 0:00:09.857947
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b990  took 0:02:04.468041
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:01:59.332136
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b025 completed in 0:00:10.632116
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b025  took 0:02:09.964264
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:09.791893
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b050 completed in 0:00:10.793388
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b050  took 0:02:20.585292
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:01:57.901077
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b065 completed in 0:00:10.857374
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b065  took 0:02:08.758463
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:04.343901
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b080 completed in 0:00:10.714014
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b080  took 0:02:15.057927
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Amon_r25/pr/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:31.315209
+
+Start of time and space variable selection
+Processing phase: nino, variable: pr
+Processing phase: nina, variable: pr
+
+Regression of :  pr
+
+End of time and space variable selection and Regression evaluation
+Time and space  pr  selection and Regression for Dataset_b100 completed in 0:00:11.233139
+
+Start saving the evaluated variables pr
+End saving the evaluated variables
+
+Evaluation of  pr for Dataset_b100  took 0:02:42.548374
+
+Overall evaluation of  pr  for all the Datasets took 0:15:11.318889
+
+# Inizia l'elaborazione della variabile: zg
+
+## Inizia l'elaborazione di: Dataset_hist
+Corresponding path:  /nas/BOTTINO/CMIP6/LongRunMIP/EC-Earth-Consortium/EC-Earth3/historical/r4i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_hist completed in 0:00:04.776841
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_hist completed in 0:00:17.088062
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_hist  took 0:00:21.864928
+
+## Inizia l'elaborazione di: Dataset_pi-control
+Corresponding path:  /nas/archive_CMIP6/CMIP6/model-output/EC-Earth-Consortium/EC-Earth3/piControl/atmos/Amon/r1i1p1f1_r25/zg500/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_pi-control completed in 0:01:28.719522
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_pi-control completed in 0:00:08.406913
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_pi-control  took 0:01:37.126446
+
+## Inizia l'elaborazione di: Dataset_b990
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-hist-1990/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b990 completed in 0:02:15.355795
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b990 completed in 0:00:08.879602
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b990  took 0:02:24.235410
+
+## Inizia l'elaborazione di: Dataset_b025
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2025/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b025 completed in 0:02:27.161974
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b025 completed in 0:00:11.920032
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b025  took 0:02:39.082017
+
+## Inizia l'elaborazione di: Dataset_b050
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2050/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b050 completed in 0:02:19.974798
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b050 completed in 0:00:10.738169
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b050  took 0:02:30.712978
+
+## Inizia l'elaborazione di: Dataset_b065
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2065/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b065 completed in 0:02:07.699977
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b065 completed in 0:00:11.774729
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b065  took 0:02:19.474717
+
+## Inizia l'elaborazione di: Dataset_b080
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2080/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b080 completed in 0:02:15.632995
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b080 completed in 0:00:12.323606
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b080  took 0:02:27.956612
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Amon_r25/zg/*.nc
+
+Start of Dataset opening/upload
+End of Dataset elaboration
+Elaboration of Dataset_b100 completed in 0:02:06.710820
+
+Start of time and space variable selection
+Processing phase: nino, variable: zg
+Processing phase: nina, variable: zg
+
+Regression of :  zg
+
+End of time and space variable selection and Regression evaluation
+Time and space  zg  selection and Regression for Dataset_b100 completed in 0:00:08.746951
+
+Start saving the evaluated variables zg
+End saving the evaluated variables
+
+Evaluation of  zg for Dataset_b100  took 0:02:15.457781
+
+Overall evaluation of  zg  for all the Datasets took 0:16:37.916484
+
+## Timing recap
+
+Overall evaluation of  tos  for all the Datasets took 0:19:19.511455
+
+Overall evaluation of  thetao  for all the Datasets took -1 day, 23:59:59.999178
+
+Overall evaluation of  tas  for all the Datasets took 0:16:33.597842
+
+Overall evaluation of  ua  for all the Datasets took 0:18:18.826901
+
+Overall evaluation of  pr  for all the Datasets took 0:15:11.318889
+
+Overall evaluation of  zg  for all the Datasets took 0:16:37.916484
+
+Overall evaluation of the script was completed in 1:26:01.170749
+
+End of the script

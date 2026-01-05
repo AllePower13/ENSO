@@ -1,0 +1,53 @@
+http://127.0.0.1:8787/status
+__main__  has been launched on date: 2025-12-16 16:36:58.145375 
+
+
+The following set of parameters was selected: 
+- Last n years of the bottino runs:  500 
+- Running Mean time, in months (for the historical detrending):  360
+
+# Inizia l'elaborazione della variabile: tos
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Omon_r25/tos/*.nc
+
+Start of Dataset opening/upload
+
+Start of time and space variable selection
+
+Start saving the evaluated variables. Dataset:  b100 , Variable : tos
+
+End dataset elaboration
+Dataset b100 took 0:00:40.972833
+
+End of variable evaluation
+Variable tos took 0:00:40.972851
+
+# Inizia l'elaborazione della variabile: thetao
+
+## Inizia l'elaborazione di: Dataset_b100
+Corresponding path:  /nas/BOTTINO/irods_data/stabilization-ssp585-2100/r1i1p1f1/Omon_r25/thetao/*.nc
+
+Start of Dataset opening/upload
+
+Start of time and space variable selection
+Chunk shape: (12, 34, 5, 27)
+Bytes per chunk: 0.22 MB
+
+Start saving the evaluated variables. Dataset:  b100 , Variable : thetao
+
+End dataset elaboration
+Dataset b100 took 0:12:29.406323
+
+End of variable evaluation
+Variable thetao took 0:12:29.406340
+
+## Timing recap
+
+Overall evaluation of  tos  for all the Datasets took 0:00:40.972851
+
+Overall evaluation of  thetao  for all the Datasets took 0:12:29.406340
+
+Overall evaluation of the script was completed in 0:13:10.379191
+
+End of the script
